@@ -1,0 +1,52 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+.main {
+  background-color: rgb(128, 124, 124);
+  padding: 10px 20px 10px 20px;
+}
+
+.logo {
+  background-color: rgb(251, 39, 39);
+  padding: 10px;
+}
+
+.nav {
+  background-color: rgb(101, 139, 210);
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.header {
+ 
+  background-color: rgb(49, 164, 106);
+  margin-bottom: 5px;
+  height: 300px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../img/basil-minced-pork-with-rice-fried-egg.jpg);
+  background-size: cover;
+
+}
+
+.sidebar {
+  background-color: rgb(200, 24, 180);
+  display: block;
+  flex: 1;
+  margin-right: 10px;
+}
+
+.body {
+  background-color: rgb(217, 175, 22);
+  display: block;
+  flex: 2;
+}
+.footer {
+  background-color: rgb(65, 5, 75);
+  text-align: center;
+  color:#fff;
+}
